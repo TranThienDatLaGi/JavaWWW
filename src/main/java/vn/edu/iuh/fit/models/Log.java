@@ -14,9 +14,9 @@ public class Log {
     private String id;
     @Column(columnDefinition = "varchar(50)")
     private String account_id;
-    @Column(columnDefinition = "datetime")
+    @Column(columnDefinition = "datetime", nullable = true)
     private Timestamp login_time;
-    @Column(columnDefinition = "datetime")
+    @Column(columnDefinition = "datetime",nullable = true)
     private Timestamp logout_time;
     @Column(columnDefinition = "varchar(250)")
     private String notes;
@@ -29,6 +29,12 @@ public class Log {
         this.login_time = login_time;
         this.logout_time = logout_time;
         this.notes = note;
+    }
+
+    public Log(String account_id, Timestamp login_time, String notes) {
+        this.account_id = account_id;
+        this.login_time = login_time;
+        this.notes = notes;
     }
 
     public String getId() {

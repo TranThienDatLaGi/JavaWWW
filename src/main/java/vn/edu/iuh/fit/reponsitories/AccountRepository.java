@@ -82,10 +82,20 @@ public class AccountRepository {
         }
         return null;
     }
-    public Optional<Account> login(String accountId, String password) throws NullPointerException{
-        String sqlQuery = "select * from account a where a.account_id  = ?1 and a.password  = ?2 limit 1";
-        List<Account> accounts = em.createNativeQuery(sqlQuery, Account.class).setParameter(1, accountId).setParameter(2, password).getResultList();
+    public Optional<Account> login(String email, String password) throws NullPointerException{
+        try {
+            String jpqlQuery = "SELECT a FROM Account a WHERE a.email = :email AND a.password = :password";
+            List<Account> accounts = em.createQuery(jpqlQuery, Account.class)
+                    .setParameter("email", email)
+                    .setParameter("password", password)
+                    .setMaxResults(1)
+                    .getResultList();
 
-        return Optional.of(accounts.size() > 0 ? accounts.get(0) : null);
+            return accounts.isEmpty() ? Optional.empty() : Optional.of(accounts.get(0));
+        } catch (Exception e) {
+
+            e.printStackTrace();
+            return Optional.empty();
+        }
     }
 }

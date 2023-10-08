@@ -4,38 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af37fb8c-8a5e-4e8f-8991-24530f156e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControlServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/GrantAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/StatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/GrantAccessRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/LogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/services/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/services/GrantAcessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/services/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/services/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/test/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="af37fb8c-8a5e-4e8f-8991-24530f156e63" name="Changes" comment="lab01">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/account/accounts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/account/add_account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/account/edit_account.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/log/logs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role/add_role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role/edit_role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/role/roles.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControlServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/controllers/ControlServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/models/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/GrantAccessRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/GrantAccessRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/reponsitories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/services/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/services/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/edu/iuh/fit/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +57,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2W3UBGwIO2u9KyIDkRzJRTLcOVU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -86,18 +90,41 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Lab01",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Word_Space/JavaWWW/Lab01/src/main/java/vn/edu/iuh/fit",
+    "last_opened_file_path": "D:/Word_Space/JavaWWW/Lab01/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Word_Space\JavaWWW\Lab01\src\main\webapp" />
+      <recent name="D:\Word_Space\JavaWWW\Lab01\src\main\webapp\WEB-INF" />
       <recent name="D:\Word_Space\JavaWWW\Lab01\src\main\java\vn\edu\iuh\fit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Word_Space\JavaWWW\Lab01\src\main\webapp" />
+      <recent name="D:\Word_Space\JavaWWW\Lab01\src\main\webapp\WEB-INF" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.Lab01 [build]">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.12">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.edu.iuh.fit.test.test" />
+      <module name="Lab01.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.edu.iuh.fit.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lab01 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -121,19 +148,85 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 10.1.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="Gradle : vn.edu.iuh.fit : Lab01-1.0-SNAPSHOT.war">
           <settings>
-            <option name="CONTEXT_PATH" value="/Gradle___vn_edu_iuh_fit___Lab01_1_0_SNAPSHOT_war" />
+            <option name="CONTEXT_PATH" value="/_Lab01/index" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d29ae9c8-e2c5-424a-9bf2-9efae2d3fcc6" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61572" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -141,8 +234,14 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Gradle.Lab01 [build]" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.12" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Gradle.Lab01 [build]" />
       </list>
     </recent_temporary>
@@ -155,11 +254,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695960621153</updated>
-      <workItem from="1695960622273" duration="205000" />
+      <workItem from="1695960622273" duration="589000" />
+      <workItem from="1695981655681" duration="2846000" />
+      <workItem from="1696691858135" duration="2613000" />
+      <workItem from="1696719680085" duration="5378000" />
+      <workItem from="1696758395965" duration="8756000" />
     </task>
+    <task id="LOCAL-00001" summary="lab01">
+      <option name="closed" value="true" />
+      <created>1695960921602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695960921603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab01" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab01" />
   </component>
 </project>

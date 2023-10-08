@@ -25,4 +25,5 @@ public class RoleService {
         return roleRep.getAllRole();
     }
     public static boolean updateRole(Role role) {return  roleRep.updateRole(role);}
+    public static List<Role> getRoleByAccount(String accountId) {return roleRep.getRoleByAccount(accountId);}
 }

@@ -6,6 +6,11 @@ import org.slf4j.LoggerFactory;
 import vn.edu.iuh.fit.models.Role;
 import vn.edu.iuh.fit.models.Status;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -80,6 +85,19 @@ public class RoleRepository {
             e.printStackTrace();
         }
         return null;
+    }
+    public List<Role> getRoleByAccount(String accountId) {
+        try {
+            trans.begin();
+            TypedQuery<Role> query = em.createQuery("SELECT a FROM Account a JOIN GrantAccess ga on a.account_id= ga.account.account_id \n" +
+                    "JOIN Role r on ga.role.role_id=r.role_id WHERE a.account_id = :accountId", Role.class);
+           query.setParameter("accountId",accountId);
+            List<Role> listRole=query.getResultList();
+           return listRole;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
 }
