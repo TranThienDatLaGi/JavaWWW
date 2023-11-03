@@ -1,4 +1,4 @@
-BÀI TẬP THỰC HÀNH TUẦN 1
+# BÀI TẬP THỰC HÀNH TUẦN 1
 
 Yêu cầu
 Tạo một csdl có tên mydb với các bảng dữ liệu account (account_id, full_name, password, email,
@@ -30,3 +30,5 @@ o Ghi log mỗi lần account đăng nhập, đăng xuất.
 thì hiển thị trang dashboard cho phép quản lý các account khác (bao gồm các quyền thêm,
 xóa, sửa và cấp quyền). Còn không (không phải admin) thì hiển thị thông tin của người
 đăng nhập cùng các quyền mà người đó có.
+# Clone
+git clone -b Lab01 --single-branch https://github.com/TranThienDatLaGi/JavaWWW.git
